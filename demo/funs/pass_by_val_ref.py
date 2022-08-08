@@ -1,10 +1,11 @@
 def inc(n):
-    print(id(a))
+    print(id(n))
     n = n + 1
+    print(id(n))
 
 
 def prepend(l, n):
-    l.add(0, n)
+    l.insert(0, n)
 
 
 a = 100
