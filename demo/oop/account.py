@@ -29,9 +29,14 @@ class SavingsAccount:
         print(self.ahname)
         print(self.balance)
 
+    @property
+    def available_balance(self):
+        return self.balance - SavingsAccount.minbal
+
 
 a1 = SavingsAccount(1, "Tom", 100000)  # __init__
-#print(SavingsAccount.minbal)
+print(a1.available_balance)
+# print(SavingsAccount.minbal)
 print(SavingsAccount.getminbal())  # calling static method
 a1.withdraw(50000)
 a1.show()
