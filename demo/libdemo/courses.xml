@@ -1,0 +1,14 @@
+<courses>
+    <course>
+        <title>Python</title>
+        <fee>5000</fee>
+    </course>
+    <course>
+        <title>Data Science</title>
+        <fee>6000</fee>
+    </course>
+    <course>
+        <title>React</title>
+        <fee>4000</fee>
+    </course>
+</courses>
